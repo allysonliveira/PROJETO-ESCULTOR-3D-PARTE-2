@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1654068054 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - projeto 1\projeto\projeto\main.cpp
+	<iostream>
+	"sculptor.hpp"
+
+1654068699 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - projeto 1\projeto\projeto\sculptor.hpp
+	"voxel.hpp"
+
+1654068862 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - projeto 1\projeto\projeto\voxel.hpp
+	"Voxel.hpp"
+
+1654069670 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - projeto 1\projeto\main.cpp
+	<iostream>
+	"sculptor.hpp"
+
+1654068699 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - projeto 1\projeto\sculptor.hpp
+	"voxel.hpp"
+
+1654068862 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - projeto 1\projeto\voxel.hpp
+	"Voxel.hpp"
+
+1654070645 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - projeto 1\projeto\sculptor.cpp
+	<iostream>
+	<cstdlib>
+	<vector>
+	<fstream>
+	<cmath>
+	"sculptor.hpp"
+
