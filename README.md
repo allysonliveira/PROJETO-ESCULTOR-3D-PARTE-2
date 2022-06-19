@@ -1,9 +1,7 @@
-# DCA1202-DCA1202-ESCULTOR-DIGITAL
+# DCA1202-ESCULTOR-3D-PARTE-2
 
-Projeto de escultor digital que utiliza conceitos de programação orientada a objetos através da linguagem c++.
+Esta segunda parte do proejto realizamos o tratamento de classes abstratas para manipulação de figuras geométricas simples, realizando operações de desenho em uma matriz de pontos.
 
-O projeto consiste em dois módulos:
+Vamos utilizar como a base a criação das nossas novas classes para várias criação outras classes concretas, que proverão funcionalidades semelhantes àquelas providas pela classe Sculptor do projeto anterior.
 
-Uma classe em C++ destinada à interpretação de um arquivo em formato de texto simples e geração das matrizes tridimensionais.
-
-Uma ferramenta visual para desenho, algo equivalente a um "paint" 3D.
+O projeto agora lê um arquivo em formato ".txt" e desenha as figuras conforme as instruções presentes com os cógidos presentes no arquivo. A interpretação é feita por uma classe abstrata que chamada de "figurageometrica", onde ela trata e gera o desenho confirme os códigos utilizados dentro do arquivo. 
