@@ -4,7 +4,7 @@
 
 ### **1. Introdução**
 <p align = "justify">
-Esta segunda parte do projeto consiste na criação do escultor 3D em que realizamos o tratamento de classes abstratas para manipulação de figuras sólidas como cubo, esfera e elipsoide, fazendo operações de desenho em uma matriz de pontos. O Código do projeto é desenvolvido na linguagem C++ utilizando o método de programação orientada a objetos e para vizualização das figuras geradas, pela capacidade de ler arquivos com extensão **.OFF**, foi utilizado o **mashlab** para windows e o **geomview** para sistema operacional linux.
+Esta segunda parte do projeto consiste na criação do escultor 3D em que realizamos o tratamento de classes abstratas para manipulação de figuras sólidas como cubo, esfera e elipsoide, fazendo operações de desenho em uma matriz de pontos. O Código do projeto é desenvolvido na linguagem C++ utilizando o método de programação orientada a objetos e para vizualização das figuras geradas, pela capacidade de ler arquivos com extensão  '.OFF' , foi utilizado o 'Mashlab' para windows e o 'Geomview' para sistema operacional linux.
  </p>
  <p align = "justify">
 Será utilizado novas classes para criação outras classes concretas, que proverão funcionalidades semelhantes àquelas providas pela classe Sculptor do projeto anterior.O projeto agora lê um arquivo em formato ".txt" e desenha as figuras conforme as instruções presentes com os cógidos no arquivo. A interpretação é feita por uma classe abstrata que chamada de "figurageometrica", onde ela trata e gera o desenho conforme os códigos utilizados dentro do arquivo. 
