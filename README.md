@@ -20,7 +20,7 @@ O código é separado em dois diretórios principais sources e headers, e um có
  - **Headers**: Contém os cabeçalhos(.hpp)
  - **Sources**: Contém os códigos para as figuras geométricas e implementação da classe Sculptor(.cpp)
  - **Documentação**: Contém informações sobre o projeto.
- - **ArquivosOFF**: Contém os modelos com extensão .OFF gerados pelo programa **MASHLAB** ou **GEOMVIEW**
+ - **ArquivosOFF**: Contém os modelos com extensão .OFF que podem ser executas e visualizados pelos programas **MASHLAB** (indicado para sistemas linux) ou **GEOMVIEW** (indicado para sistemas windows)
  
  ### **3. Projeto: Yoshi - IMAGEM**
  
