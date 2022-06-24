@@ -19,24 +19,25 @@
 
 int main()
 {
-    Sculptor *dimensoes;
+    Sculptor *dimensoes; //
 
-    interpretador vetor;
+    interpretador leitor;
     vector<figurageometrica*> figura;
 
-    figura = vetor.vetor("yoshi-02.txt"); // recebe o container que armazenou todos os processos que ser„o realizados
+    figura = leitor.vetor("yoshi-02.txt"); // recebe o container que armazenou todos os processos que ser√£o realizados
 
-    dimensoes = new Sculptor(vetor.getdx(),vetor.getdy(), vetor.getdz()); //aloca a memÛria, recebendo as dimensıes do desenho
+    dimensoes = new Sculptor(leitor.getdx(),leitor.getdy(), leitor.getdz()); //aloca a mem√≥ria, recebendo as dimens√µes do desenho
 
-    for (size_t x=0; x<figura.size();x++){ // cada processo recebe o mÈtodo draw relacionado ao tipo de classe [putVoxel, cutVoxel, putBox...]
+    for (size_t x=0; x<figura.size();x++){ // cada processo recebe o m√©todo draw relacionado ao tipo de classe [putVoxel, cutVoxel, putBox...]
         figura[x] -> draw(*dimensoes);
     }
 
-    dimensoes -> writeOFF((const char*)"yoshi-02.off"); //criaÁ„o do arquivo .off
+    dimensoes -> writeOFF((const char*)"yoshi-02.off"); //cria√ß√£o do arquivo .off
 
-    for(size_t x=0; x<figura.size(); x++){ // liberando a memÛria
+    for(size_t x=0; x<figura.size(); x++){ // liberando a mem√≥ria
         delete figura[x];
     }
-
+    
+    delete *dimensoes;
     return 0;
 }
